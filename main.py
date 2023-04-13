@@ -7,7 +7,7 @@ DICTIONARY_PAGE_URL = "https://sjp.pl/{word}"
 GOOGLE_QUERY_URL = "https://www.google.com/search?q={query}"
 
 
-with open("../data/slowa.txt", "r") as f:
+with open("slowa.txt", "r") as f:
     words = [w for w in f]
 
 while True:
